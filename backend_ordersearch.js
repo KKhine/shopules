@@ -1,4 +1,4 @@
-$(document).ready(function(){
+ $(document).ready(function(){
 	$('.searchBtn').on('click',function(){
 		var startDate = $('#startDate').val();
 		var endDate = $('#endDate').val();
