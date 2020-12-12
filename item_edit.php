@@ -96,10 +96,10 @@
                         <div class="col-sm-10">
                             <select class="form-control" name="brand_id">
                                 <?php foreach ($brands as $brand) {
-                                   $id = $brand['id'];
-                                   $name=$brand['name'];
+                                   $bid = $brand['id'];
+                                   $bname=$brand['name'];
                                 ?>
-                                <option value="<?= $id; ?>"><?= $name; ?></option>
+                                <option value="<?= $id; ?>"><?= $bname; ?></option>
                             <?php } ?>
                             </select>
                         </div>
@@ -110,10 +110,10 @@
                         <div class="col-sm-10">
                             <select class="form-control" name="subcategory_id">
                                 <?php foreach ($subcategories as $subcategory) {
-                                   $id = $subcategory['id'];
+                                   $sid = $subcategory['id'];
                                    
                                 ?>
-                                <option value="<?= $id; ?>"><?= $subcategory['name']; ?></option>
+                                <option value="<?= $sid; ?>"><?= $subcategory['sname']; ?></option>
                             <?php } ?>
                             </select>
                         </div>
