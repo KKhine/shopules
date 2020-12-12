@@ -45,7 +45,7 @@ $categories = $stmt->fetchAll();
 								</a>
 								<form action="category_delete.php" onsubmit="return confirm('Are you sure want to delete')" method="POST" class="d-inline-block">
 									<input type="hidden" name="id" value="<?= $cid ?>">
-									<button class="btn btn-outline-danger"><i class="icofont-close"></button>
+									<button class="btn btn-outline-danger"><i class="icofont-close"></i></button>
 								</form>
 							</td>
 						</tr>
